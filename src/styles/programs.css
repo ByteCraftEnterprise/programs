@@ -1,0 +1,42 @@
+.img {
+  width: 550px;
+}
+
+.program-content h4 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin: 35px 0px;
+}
+
+.program-card {
+  width: 550px;
+  background-color: #1a1b1c;
+  border-radius: 17px;
+  padding-bottom: 10%;
+}
+
+.program-content {
+  padding: 0% 10%;
+}
+
+.program-card p {
+  text-align: left;
+}
+
+.program-content button {
+  background: linear-gradient(97deg, #479da9 0%, #725ac1 61.38%);
+  border-radius: 17px;
+  padding: 15px 90px;
+  text-transform: none;
+}
+
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+  justify-content: center;
+  padding: 80px;
+}
