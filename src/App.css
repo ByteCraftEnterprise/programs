@@ -98,7 +98,7 @@ h4 {
 }
 
 @media (min-width: 901px) {
-  .cards-list {
+  .programs {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -111,7 +111,7 @@ h4 {
   html {
     font-size: 54%;
   }
-  .cards-list {
+  .programs {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;

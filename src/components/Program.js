@@ -16,7 +16,9 @@ const Program = (props) => {
                     <br />
 
                     <p>{props.item.paragraph3}</p>
-                    <button className='button'>Enroll</button>
+                    <a href={props.item.link} target="_blank">
+                        <button className='button'>Enroll</button>
+                    </a>
                 </div>
             </div>
 
