@@ -8,6 +8,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg fixed-top ">
             <div className="container">
+                <img src="https://iili.io/JHxOSQR.png" id="logo"></img>
                 <a className="navbar-brand" href="/">ByteCraft</a>
                 <button
                     className="navbar-toggler"
